@@ -1,0 +1,245 @@
+/* Style the video: 100% width and height to cover the entire window */
+
+@import "compass/css3";
+
+#myVideo {
+    position: fixed;
+    transition: linear;
+	transition-duration: 2000ms;
+	transition-property: opacity;
+	opacity: 1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+#myVideo:hover{
+	opacity: 0;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+img{
+    padding: 0;
+	min-height: 100%;
+	min-height: 100%;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+}
+
+/*
+h1{
+	display: flex;
+	justify-content: center;
+	position: top-center;
+	font-size: 4rem;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	text-align: center;
+	color: red;
+    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 3px 2px red;
+}
+
+h2{
+	display: flex;
+	justify-content: center;
+	white-space: nowrap;
+	transition: ease-in-out;
+	transition-delay: 1500ms;
+	transition-timing-function: ease-in-out;
+	transition-duration: 4000ms;
+	transition-property: opacity;
+	opacity: 0;
+	font-size: 4rem;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color: blue;
+}
+
+h3{
+	display: flex;
+	justify-content: center;
+	white-space: nowrap;
+	transition: ease-in-out;
+	transition-timing-function: ease-in-out;
+	transition-duration: 4000ms;
+	transition-property: opacity;
+	opacity: 0;
+	font-size: 4rem;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color: blue;
+}
+
+h4{
+	display: flex;
+	justify-content: center;
+	white-space: nowrap;
+	transition: ease-in-out;
+	transition-timing-function: ease-in-out;
+	transition-duration: 4000ms;
+	transition-property: opacity;
+	opacity: 0;
+	font-size: 7rem;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color: blue;
+}
+
+h5{
+	display: flex;
+	justify-content: center;
+	white-space: nowrap;
+	padding: 150px 0px 0px 0px;
+	transition: ease-in-out;
+	transition-timing-function: ease-in-out;
+	transition-duration: 4000ms;
+	transition-property: opacity;
+	opacity: 0;
+	font-size: 8rem;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color: blue;
+}*/
+
+.navbar-light{
+	opacity: .5;
+	justify-content: center;
+	border-color: red;
+	visibility: 0;
+}
+
+/*.container {
+	display: flex;
+	text-shadow: 10px 10px 5px grey;
+    background-image: url("images/landingimg.jpg");
+    transition: linear;
+    transition-property: opacity;
+    transition-duration: 2000ms;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    min-width: 900px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	background-image: url("images/landingimg.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}*/
+/*
+.container:hover h2{
+	text-shadow: 10px 10px 5px grey;
+	opacity: 1;
+}
+
+.container:hover h3{
+	text-shadow: 10px 10px 5px grey;
+	transition-delay: 4000ms;
+	opacity: 1;
+}
+
+.container:hover h4{
+	text-shadow: 10px 10px 5px grey;
+	transition-delay: 6000ms;
+	opacity: 1;
+}
+
+.container:hover h5{
+	text-shadow: 10px 10px 5px grey;
+	transition-delay: 7500ms;
+	opacity: 1;
+}*/
+
+.centered {
+	display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+	border-radius: 5%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border: 3px solid;
+	font-family: 'Encode Sans Condensed', sans-serif ;
+	font-size: 30px;
+	width: 20rem;
+	height: 5rem;
+	text-shadow: 2px 2px 4px black;
+	color: red;
+	box-shadow: 5px 5px 2px red;
+    border-color: red;
+    transition: ease-in 500ms;
+    transition-property: opacity;
+    opacity: .5;
+}
+
+.btn:hover{
+	display: flex;
+	justify-content: center;
+	border: 3px solid;
+	font-family: 'Encode Sans Condensed', sans-serif ;
+	font-size: 30px;
+	width: 20rem;
+	height: 5rem;
+	box-shadow: 6px 6px 3px black;
+	color: white;
+	background-color: black;
+    border-color: white;
+    transition-property: opacity;
+    opacity: 1;
+}
+
+.btn-info{
+	background-color: transparent;
+}
+
+.title2{
+	font-family: 'Encode Sans Condensed', sans-serif ;
+	font-size: 1.5rem;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.head{
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+	position: initial;
+	font-family: 'Encode Sans Condensed', sans-serif ;
+	color: red;
+	font-size: 4vw;
+	text-shadow: 2px 2px 4px #000000;
+}
+
